@@ -1,0 +1,285 @@
+  
+
+/* ********************************************************************************************
+    Design for a width of 768px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 768px) {
+.modal-sm{
+    width:420px
+}
+  .pull-sm-right {
+    float: right !important;
+}
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 992px and above
+*********************************************************************************************** */
+
+@media only screen and (min-width: 992px) {
+    
+.modal-lg{
+    width:810px;
+}
+
+}
+
+/* ********************************************************************************************
+    Design for a width of 992px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+    /*index*/
+ 
+  .categories-item{
+	width: 68%;
+    }
+    .categories-item:last-child {
+	margin-left: 20px;
+	width: 25%;
+    }
+    .pn-ProductNav{
+	width:43%
+    }
+    .width-sm {
+	width: 288px;
+    }
+}
+
+
+/* ********************************************************************************************
+    Design for a width of 992px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+
+   .pn-ProductNav{
+    width:40%
+   }
+  
+}
+
+/* ********************************************************************************************
+    Design for a width of 1024px and below
+*********************************************************************************************** */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   .special-stores-box{
+    width: calc((100% + 0px) / 3)
+   }
+   
+   
+   .information-support-info .media-left{
+    width:60px;
+   }
+   .category-banner .category-product-banner{
+	background-position:  center top !important;
+	height:200px !important;
+	background-size: contain !important
+    }
+   .logo {
+
+    margin-right: 15px;
+  }
+   .width-sm {
+    width: 288px;
+  }
+   .cart-box{
+    margin: 10px 32px
+   }
+   .pn-Advancer_Left{
+    left:26%
+   }
+   .pn-ProductNav_Link{
+    padding:15px;
+   }
+    .add-custom{
+	width: 30%
+    }
+    .categories-item{
+	width: 68%;
+    }
+    .categories-item:last-child {
+	margin-left: 20px;
+	width: 25%;
+    }
+    .margin-sm .col-lg-4{
+	margin-top:40px;
+    }
+    .pn-ProductNav_Wrapper .search-bar{
+	width:26%
+    }
+}
+
+/* ********************************************************************************************
+    Design for a width of 991px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 991px) {
+    .modal-dialog {
+	width: calc(100% - 50px);
+    }
+    .margin-sm .col-lg-4{
+	margin-top:40px;
+    }
+    .category-banner .category-product-banner{
+	background-position:  center top !important;
+	height:200px !important;
+	background-size: contain !important
+    }
+    
+    
+    
+}
+@media (min-width: 768px){
+    .navbar-brand, .navbar > .container .navbar-brand{
+	margin:0;
+	padding:8px 0;
+	height:auto
+    }
+    
+}
+
+@media only screen and (min-width: 576px) {
+.modal-sm{
+    max-width:500px
+}
+
+
+}
+/* ********************************************************************************************
+    Design for a width of 767px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 767px) {
+    .logo{
+	margin-right: 15px;
+    }
+    .width-sm {
+	width: 330px;
+    }
+    .col-sm-5.pul-right.text-right {
+	margin-top: 20px;
+	text-align: center;
+    }
+    .header-after-login .nav-custom-right {
+	display: inline-block;
+	float: none !important;
+    }
+    .cart-box {
+	margin: 10px 15px;	
+    }
+    .btn-login {
+	padding-right: 15px;
+    }
+    .service-part{
+	padding:30px 0 15px; 
+    }
+    .service-item:last-child{
+	margin-bottom:0
+    }
+    .service-item{
+	margin-bottom:30px;
+    }
+   .special-stores-box, .special-stores-list-img{
+	width:100%;
+    }
+   .categories-item{
+	width: 100%;
+    }
+    .categories-item:last-child {
+	margin-left: 0px;
+	width: 100%;
+    }
+    .btn-app a{
+	margin-right:7px;
+    }
+    .information-support-info .media-left{
+	padding-left: 0;
+	padding-bottom:15px;
+    }
+    .media-left, .media-right, .media-body{
+	display: block;
+	width: auto;
+    }
+    .category-banner{
+	margin:15px 0
+    }
+    .category-banner .category-product-banner{
+	background-position:  center top !important;
+	height:200px !important;
+	background-size: contain !important
+    }
+    
+    .information-support-info .media-body{
+	padding-bottom:10px;
+    }
+    .service-item h6{
+	font-size:13px;
+    }
+    .btn-app img {
+	height: 45px;
+	width: 140px;
+    }
+    .delivery-location-map, .delivery-location-map img, .delivery-location-map frame{
+	height:250px;
+    }
+    .margin-sm .col-lg-4{
+	margin-top:40px;
+    }
+    .pn-ProductNav_Wrapper{
+	height: auto;
+    }
+    .search-bar .col-sm-4.text-right{
+	text-align: center
+    }
+    .btn-white{
+	margin-bottom:15px
+    }
+    .pn-ProductNav_Wrapper .search-bar {
+	width: 100%;
+    }
+    .pn-ProductNav {
+	margin: 0 auto;
+	text-align: center;
+	width: 98%;
+    }
+    .pn-Advancer_Left{
+	left:0
+    }
+    .add-custom {
+	float: none;
+	margin: 0 auto 10px;
+	width: auto;
+	text-align: center
+    }
+    .pn-ProductNav_Wrapper .search-bar{
+	border:none
+    }
+}
+
+/* ********************************************************************************************
+    Design for a width of 479px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 479px) {
+    
+    .overlay-panel-open{
+	width:100%;
+    }
+    .width-sm {
+	width: 214px;
+    }
+    
+}
+/* ********************************************************************************************
+    Design for a width of 360px and below
+*********************************************************************************************** */
+
+@media only screen and (max-width: 359px) {
+    .width-sm {
+	width: 174px;
+    }
+}

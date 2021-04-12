@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Signika';
+    src: url('../font/Signika-Light.eot');
+    src: url('../font/Signika-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/Signika-Light.woff2') format('woff2'),
+        url('../font/Signika-Light.woff') format('woff'),
+        url('../font/Signika-Light.ttf') format('truetype'),
+        url('../font/Signika-Light.svg#Signika-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../font/Signika-SemiBold.eot');
+    src: url('../font/Signika-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Signika-SemiBold.woff2') format('woff2'),
+        url('../font/Signika-SemiBold.woff') format('woff'),
+        url('../font/Signika-SemiBold.ttf') format('truetype'),
+        url('../font/Signika-SemiBold.svg#Signika-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../font/Signika-Regular.eot');
+    src: url('../font/Signika-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Signika-Regular.woff2') format('woff2'),
+        url('../font/Signika-Regular.woff') format('woff'),
+        url('../font/Signika-Regular.ttf') format('truetype'),
+        url('../font/Signika-Regular.svg#Signika-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Signika';
+    src: url('../font/Signika-Bold.eot');
+    src: url('../font/Signika-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Signika-Bold.woff2') format('woff2'),
+        url('../font/Signika-Bold.woff') format('woff'),
+        url('../font/Signika-Bold.ttf') format('truetype'),
+        url('../font/Signika-Bold.svg#Signika-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* ********************************************************************************************
+    Reset
+*********************************************************************************************** */
+
+html,
+body{
+    -webkit-font-smoothing: antialiased;
+    height:100%; min-height:100%;
+    
+}
+.wrapper{
+    min-height:100%
+}
+body{
+    font-family: 'Signika' !important;
+    font-size:14px;
+    color: #9F9F9F;
+}
+
+.inner-lg-container{
+    width: 547px;
+    margin:0 auto;
+}
+
+.font-text14{
+    font-size:14px;
+}
+.margin-sm{
+    margin:30px auto;
+}
+h1{
+    font-size:69px !important;
+    line-height:69px !important;
+    font-weight: bold !important;
+}
+.font-103{
+    font-size: 103px;
+    line-height:103px;
+    font-weight: bold;
+}
+.padding-sm{
+    padding:0 25px !important;
+}
+.positionR{
+    position: relative !important;
+}
+.w-300{
+    width:300px;
+}
+.cursor{
+    cursor: pointer;
+}
+.text-primary{
+    color:#008DF0
+}
+.text-warning{
+    color:#FF8814
+}
+.font-600{
+    font-weight:600;
+}
+.border-radius{
+    border-radius:100px !important;
+}
+.main-grid-title label{
+    font-size:34px;
+}
+.main-grid-title .form-control{
+    display: block;
+    border: 1px solid #CFCFCF !important;
+    padding:15px 20px;
+    font-weight: normal;
+    border-radius:50px;
+    text-align: center;
+    height: auto;
+    color:#9F9F9F;
+    font-size: 24px;
+}
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#9F9F9F;
+  opacity: 1;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+ color:#9F9F9F;
+ opacity: 1;
+}
+.form-control:-ms-input-placeholder { /* IE 10+ */
+  color:#9F9F9F;
+  opacity: 1;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color:#9F9F9F;
+  opacity: 1;
+}
+.mb-5{
+    margin-bottom:30px !important;
+}
+.main-grid{
+    width:100%;
+    min-height:100vh
+}
+.modal-content{
+    border-radius:30px !important;
+        border: none !important;
+}
+.bg-green {
+    background: #51C13C;
+    border-radius: 28px;
+
+}
+.bg-red {
+    background: #ff6868;
+    border-radius: 28px;
+
+}
+
+.font-60{
+    font-size:60px;
+    font-weight: bold
+}
+.text-white{
+    color:#fff
+}
+.btn.btn-white{
+    background:#fff;
+    border-color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    color:#51C13C !important
+}
+h4{
+    font-size:24px;
+    color:#303C42
+}
+.modal-body {
+    padding: 49px;
+}
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+.btn {
+    padding: 16px !important;
+    font-size:34px !important;
+    line-height:34px !important;
+    color:#FFFFFF !important
+}
+.number {
+    width: 94px;
+    height: 94px;
+    line-height: 94px;
+    background: #008DF0;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 39px;
+    vertical-align: middle;
+    margin-right: -13px;
+}
+.player-name .text {
+    border-radius: 0 35px 35px 0;
+     color: #fff;
+     display: inline-block;
+     position: relative;
+     font-size: 22px;
+     line-height: 22px;
+     padding: 10px 23px;
+     white-space: normal;
+     word-break: break-all;
+     width: 150px;
+     background: #008DF0;
+ }
+
+.main-grid-center{
+    width:400px;
+    margin:0 auto;
+}
+.color-list{
+    background:#FF8814;
+    width:80px;
+    height:80px;
+    line-height:80px;
+    text-align: center;
+    border-radius:100%;
+    margin:0 auto;
+}
+.color-list a{
+    display: block
+}
+.footer-text h4{
+    color:#303C42;
+    font-size:24px;
+    font-weight:normal;
+    margin-top:15px;
+}
+.font-30{
+    font-size: 30px;
+    color:#2D3134;
+    font-weight: bold;
+}
+.margin-top {
+    margin-top: -52px;
+}
+.number-small{
+    width:60px;
+    height:60px;
+    line-height:60px;
+    font-size:30px;
+}
+.icon img{
+    width:83px
+}
+.errorMessage{
+    color: red;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+

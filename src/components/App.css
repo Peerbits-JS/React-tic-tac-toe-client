@@ -1,0 +1,38 @@
+.board.won-row0 .row0 .symbol,
+.board.won-row1 .row1 .symbol,
+.board.won-row2 .row2 .symbol,
+.board.won-column0 .symbol.column0,
+.board.won-column1 .symbol.column1,
+.board.won-column2 .symbol.column2,
+.board.won-leftSlant .row0 .symbol.column0,
+.board.won-leftSlant .row1 .symbol.column1,
+.board.won-leftSlant .row2 .symbol.column2,
+.board.won-rightSlant .row0 .symbol.column2,
+.board.won-rightSlant .row1 .symbol.column1,
+.board.won-rightSlant .row2 .symbol.column0 {
+  background-color: #7ab63c;
+}
+
+.board.draw .symbol {
+  background-color: rgb(248, 0, 0);
+  
+}
+
+.row {
+  display: flex;
+}
+
+
+@keyframes symbol-appear {
+  from {
+    transform: scale(-0.5);
+  }
+  to {
+    transform: scale(1.0);
+  }
+}
+  
+svg {
+  animation-name: symbol-appear;
+  animation-duration: .5s;
+}
